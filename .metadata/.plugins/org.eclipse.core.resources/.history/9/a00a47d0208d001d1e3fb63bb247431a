@@ -1,0 +1,5 @@
+package oi.github.josepaulo.data.datasources.impl;
+
+public class ProductDatasourcesLocalImpl {
+
+}

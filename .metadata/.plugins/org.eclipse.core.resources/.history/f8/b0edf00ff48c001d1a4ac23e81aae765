@@ -1,0 +1,13 @@
+package oi.github.josepaulo.data.datasources;
+
+import java.util.List;
+
+import oi.github.josepaulo.domain.entities.Product;
+import oi.github.josepaulo.domain.repositories.ProductRepository;
+
+public interface ProductDatasourceLocal extends ProductRepository {
+
+
+	
+
+}

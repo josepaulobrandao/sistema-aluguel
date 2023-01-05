@@ -1,0 +1,11 @@
+package oi.github.josepaulo.data.controllers;
+
+import oi.github.josepaulo.domain.usecases.CreateProduct;
+
+public class ProductController {
+	final CreateProduct createProduct;
+	
+	
+	
+	
+}

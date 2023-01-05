@@ -1,0 +1,17 @@
+package oi.github.josepaulo.data.datasources;
+
+import java.util.List;
+
+import oi.github.josepaulo.data.models.ProductModel;
+import oi.github.josepaulo.domain.entities.Product;
+import oi.github.josepaulo.domain.repositories.ProductRepository;
+
+public interface ProductDatasourceLocal extends ProductRepository {
+
+	void createProduct(Product product);
+	void deleteProduct(int id);
+	ProductModel getProduct(int id);
+	List<ProductProdct> getProducts();
+	
+
+}

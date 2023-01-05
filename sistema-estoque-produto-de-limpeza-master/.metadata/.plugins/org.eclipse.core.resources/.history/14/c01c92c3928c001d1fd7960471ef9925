@@ -1,0 +1,11 @@
+package oi.github.josepaulo.domain.usecases;
+
+import oi.github.josepaulo.domain.repositories.ProductRepository;
+
+public class CreateProduct {
+	
+	final ProductRepository productRepository = null;
+	
+	
+	
+}

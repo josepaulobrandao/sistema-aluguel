@@ -1,0 +1,17 @@
+package oi.github.josepaulo.data.models;
+
+public class ProductResponseModel {
+	private int value;
+	private String name;
+	
+	public ProductResponseModel() {
+		
+		
+	}
+	
+	
+	public ProductResponseModel(int value, String name) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

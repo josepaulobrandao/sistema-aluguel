@@ -1,0 +1,9 @@
+package oi.github.josepaulo.data.models;
+
+public class ProductResponseModel {
+
+	public ProductResponseModel(int value, String name) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,8 @@
+package oi.github.josepaulo.data.datasources;
+
+import oi.github.josepaulo.data.models.ProductModel;
+
+public interface ProductDatasourceLocal {
+
+
+}
