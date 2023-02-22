@@ -24,4 +24,5 @@
     <fullyQualifiedTypeName name="oi.github.josepaulo.data.models.ProductResponseModel"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
     <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="Cachorro"/>
 </qualifiedTypeNameHistroy>
