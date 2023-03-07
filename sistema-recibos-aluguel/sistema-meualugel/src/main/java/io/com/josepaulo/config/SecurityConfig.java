@@ -23,7 +23,7 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws  Exception {
 
-        if(Arrays.asList(environment.getActiveProfiles()).contains("dev")){
+        if(Arrays.asList(environment.getActiveProfiles()).contains("test")){
             http
                     .headers()
                     .frameOptions()
