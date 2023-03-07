@@ -1,6 +1,6 @@
 package io.com.josepaulo.services;
 
-import io.com.josepaulo.config.UserSpringSecurity;
+import io.com.josepaulo.Security.UserSpringSecurity;
 import io.com.josepaulo.domain.Pessoa;
 import io.com.josepaulo.repositories.PessoaRepository;
 import org.springframework.beans.factory.annotation.Autowired;

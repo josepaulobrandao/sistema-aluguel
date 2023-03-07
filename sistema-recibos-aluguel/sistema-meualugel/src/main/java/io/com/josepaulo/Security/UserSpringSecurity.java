@@ -1,4 +1,4 @@
-package io.com.josepaulo.config;
+package io.com.josepaulo.Security;
 
 import io.com.josepaulo.domain.enums.PerfilUsuario;
 import org.springframework.security.core.GrantedAuthority;
