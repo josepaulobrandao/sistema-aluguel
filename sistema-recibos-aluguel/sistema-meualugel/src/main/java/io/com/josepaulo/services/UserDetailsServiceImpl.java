@@ -1,6 +1,6 @@
 package io.com.josepaulo.services;
 
-import io.com.josepaulo.Security.UserSpringSecurity;
+import io.com.josepaulo.Security.UserSS;
 import io.com.josepaulo.domain.Pessoa;
 import io.com.josepaulo.repositories.PessoaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +20,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
         Optional<Pessoa> user = repository.findByEmail(email);
         if(user.isPresent()){
-            return new UserSpringSecurity(
+            return new UserSS(
                     user.get().getId(),
                     user.get().getEmail(),
                     user.get().getSenha(),

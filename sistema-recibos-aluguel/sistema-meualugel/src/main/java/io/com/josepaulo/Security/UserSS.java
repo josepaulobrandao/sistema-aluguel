@@ -9,7 +9,7 @@ import java.util.Collection;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class UserSpringSecurity implements UserDetails {
+public class UserSS implements UserDetails {
     private static final long serialVersionUID = 1L;
     private Integer id;
     private String email;
@@ -17,7 +17,7 @@ public class UserSpringSecurity implements UserDetails {
     private Collection<? extends GrantedAuthority> authorities;
 
 
-    public UserSpringSecurity(Integer id, String email, String senha, Set<PerfilUsuario> perfis) {
+    public UserSS(Integer id, String email, String senha, Set<PerfilUsuario> perfis) {
         this.id = id;
         this.email = email;
         this.senha = senha;
